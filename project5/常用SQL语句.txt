@@ -1,0 +1,24 @@
+create table password(passwd text not null unique);
+insert into password values ("12345");
+select * from password;
+
+create table if not exists card(id text not null unique,time text,num int not null unique);
+insert into card values ();
+select * from card;
+delete  from card where id="卡号";
+drop  table  card;
+update card set num=按钮号 where id="卡号";
+select * from card where name="卡号";
+
+insert into card values ("12345678","0",1);
+insert into card values ("1234567","0",10);
+insert into card values ("123456","0",4);
+
+delete  from card where num=1;
+delete  from card where num=10;
+delete  from card where num=4;
+delete  from card where num=-1;
+
+update card set passwd="新密码" where passwd="老密码";
+
+update card set time=0 where num=10;
