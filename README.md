@@ -1,1 +1,3 @@
 # CarParkSystem-project5
+project5.zip压缩包中为带有车牌识别功能的project5
+project5文件夹中的为不带有车牌识别功能的project5
